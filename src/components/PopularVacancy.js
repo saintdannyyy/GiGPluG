@@ -67,9 +67,14 @@ export default function PopularVacancy() {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {vacancy.map((vacancy, index) => (
-          <div key={index} className={`bg-white dark:bg-gray-800`}>
+          <div
+            key={index}
+            className={`group bg-white dark:bg-gray-800 hover:cursor-pointer`}
+          >
             <div className="flex flex-col justify-start items-start">
-              <p className="text-lg font-semibold">{vacancy.label}</p>
+              <p className="text-lg font-semibold group-hover:text-primary group-hover:underline">
+                {vacancy.label}
+              </p>
               <p className="py-1 text-sm">{vacancy.value} Open Positions</p>
             </div>
           </div>
