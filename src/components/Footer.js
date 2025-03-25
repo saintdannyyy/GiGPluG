@@ -30,10 +30,10 @@ export function Footer() {
                 <p className="font-medium text-white">
                   Call now :
                   <a
-                    href="tel:3105550115"
+                    href="tel:020-000-0000"
                     className="hover:text-blue-400 transition-colors"
                   >
-                    (310) 555-0115
+                    (020) 000-0000
                   </a>
                 </p>
               </div>
@@ -134,10 +134,22 @@ export function Footer() {
               </p>
             </div>
             <div className="flex flex-row gap-4">
-              <Facebook fill="#767F8C" stroke="#767F8C" />
-              <Youtube fill="#767F8C" stroke="#767F8C" className="bg-black" />
-              <Instagram stroke="#767F8C" />
-              <Twitter fill="#767F8C" stroke="#767F8C" />
+              <Link href="https://facebook.com" target="_blank">
+                {" "}
+                <Facebook fill="#767F8C" stroke="#767F8C" />
+              </Link>
+              <Link href="https://youtube.com" target="_blank">
+                {" "}
+                <Youtube fill="#767F8C" stroke="#767F8C" className="bg-black" />
+              </Link>
+              <Link href="https://instagram.com" target="_blank">
+                {" "}
+                <Instagram stroke="#767F8C" />
+              </Link>
+              <Link href="https://x.com" target="_blank">
+                {" "}
+                <Twitter fill="#767F8C" stroke="#767F8C" />
+              </Link>
             </div>
           </div>
         </div>
