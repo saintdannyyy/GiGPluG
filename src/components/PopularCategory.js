@@ -97,7 +97,7 @@ export default function PopularCategory() {
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-semibold">Popular Categories</h2>
         <button className="text-blue-600 dark:text-blue-400 hover:underline flex items-center cursor-pointer">
-          <a href="/jobs">
+          <a href="/Jobs">
             <div className="flex flex-row items-center">
               <p>View All</p>
               <ChevronRight />
