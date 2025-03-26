@@ -19,7 +19,7 @@ export default function JobFilters({ filters, setFilters, onSearch }) {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md mb-8 px-[10%]">
       <form onSubmit={handleSubmit} className="mb-6">
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <input
             type="text"
             placeholder="Search jobs..."
