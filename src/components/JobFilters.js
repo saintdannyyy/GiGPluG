@@ -52,7 +52,7 @@ export default function JobFilters({ filters, setFilters, onSearch }) {
             <option value="">All Types</option>
             <option value="FULLTIME">Full-time</option>
             <option value="PARTTIME">Part-time</option>
-            <option value="CONTRACT">Contract</option>
+            <option value="Internship">Internship</option>
           </select>
         </div>
 
