@@ -12,9 +12,9 @@ export default function JobListings() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [filters, setFilters] = useState({
-    query: "developer", // Default query to prevent empty searches
+    query: "",
     page: "1",
-    num_pages: "1",
+    num_pages: "15",
   });
 
   const fetchJobs = async (params = filters) => {
@@ -39,7 +39,7 @@ export default function JobListings() {
     <div className=" bg-white flex z-10 flex-col w-screen h-screen">
       {/* Header */}
       <Header />
-      <div className="w-full bg-primary-foreground py-8">
+      <div className="w-full bg-primary-foreground py-2">
         <div className="flex flex-row items-center justify-between w-full px-[10%]">
           <h1 className="text-3xl font-bold mb-6">Find Jobs</h1>
           <p className="text-xl">Home / Find Job</p>
@@ -94,7 +94,7 @@ export default function JobListings() {
             <p className="text-gray-600">Try adjusting your search filters</p>
           </div>
         ) : (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 px-[10%]">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-10 px-[10%]">
             {jobs.map((job) => (
               <JobCard key={job.job_id} job={job} />
             ))}
