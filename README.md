@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GigPlug
+
+GigPlug is a job search platform designed to connect users with their next gig, whether it's a 9-5 job or a freelance opportunity. Built with [Next.js](https://nextjs.org), it provides a seamless and responsive user experience.
+
+## Features
+
+- Job search functionality with filters for job title, keywords, and location.
+- Responsive design optimized for mobile, tablet, and desktop screens.
+- Popular job categories and vacancies displayed dynamically.
+- User-friendly interface for candidates and employers.
+- Built-in animations and optimized performance using Next.js.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following installed:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/saintdannyyy/gigplug.git
+   cd gigplug
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Deployment
+
+This project is deployed on [Vercel](https://vercel.com). You can view the live demo here:
+
+**Live Demo**: [https://gig-plug.vercel.app/](https://gig-plug.vercel.app/)
+
+## Design
+
+The design for this project is available on Figma. Check it out here:
+
+**Figma Design**: [https://www.figma.com/design/avTKiXf3K2i1LlA84nCOrM/GiGPluG?node-id=0-1&p=f&t=g3iZIjZJccYA76QZ-0](https://www.figma.com/design/avTKiXf3K2i1LlA84nCOrM/GiGPluG?node-id=0-1&p=f&t=g3iZIjZJccYA76QZ-0)
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the tools and frameworks used in this project, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Learn about the utility-first CSS framework used for styling.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
+
+## Links
+
+- **GitHub Repository**: [https://github.com/saintdannyyy/GiGPluG](https://github.com/saintdannyyy/GiGPluG)
+- **Live Demo**: [https://gig-plug.vercel.app](https://gig-plug.vercel.app)
+- **Figma Design**: [https://www.figma.com/design/avTKiXf3K2i1LlA84nCOrM/GiGPluG?node-id=0-1&p=f&t=g3iZIjZJccYA76QZ-0](https://www.figma.com/design/avTKiXf3K2i1LlA84nCOrM/GiGPluG?node-id=0-1&p=f&t=g3iZIjZJccYA76QZ-0)
