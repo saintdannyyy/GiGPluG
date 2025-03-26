@@ -1,4 +1,30 @@
-// lib/jsearch.js
+export async function getJobDetails(job_id) {
+  const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPIDAPI_KEY,
+      "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
+    },
+  };
+
+  try {
+    const response = await fetch(
+      `https://jsearch.p.rapidapi.com/job-details?job_id=${job_id}`,
+      options
+    );
+
+    if (!response.ok) {
+      throw new Error(`API Error: ${response.status}`);
+    }
+
+    return response.json();
+  } catch (error) {
+    console.error("Error fetching job details:", error);
+    throw error;
+  }
+}
+
+// search jobs
 export async function searchJobs(params = {}) {
   // Validate parameters
   if (!params.query || params.query.trim() === "") {
@@ -8,7 +34,7 @@ export async function searchJobs(params = {}) {
   // Set default values
   const defaultParams = {
     page: "1",
-    num_pages: "1",
+    num_pages: "5",
     date_posted: "all",
   };
 
