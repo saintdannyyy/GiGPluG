@@ -39,7 +39,7 @@ export const realisticJobs = [
     job_max_salary: 220000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.google.com/jobs/results/1",
-    job_posted_at_datetime_utc: "2023-05-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-05-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in Computer Science or related field",
@@ -73,7 +73,7 @@ export const realisticJobs = [
     job_max_salary: 180000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.amazon.jobs/en/jobs/2",
-    job_posted_at_datetime_utc: "2023-05-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-05-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "PhD or Master's in Statistics, Computer Science, or related field",
@@ -102,7 +102,7 @@ export const realisticJobs = [
     job_max_salary: 120000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.coca-colacompany.com/jobs/3",
-    job_posted_at_datetime_utc: "2023-06-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-06-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in Marketing or Business Administration",
@@ -131,7 +131,7 @@ export const realisticJobs = [
     job_max_salary: 110000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.jpmorgan.com/global/en/jobs/4",
-    job_posted_at_datetime_utc: "2023-06-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-06-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in Finance or Economics",
@@ -160,7 +160,7 @@ export const realisticJobs = [
     job_max_salary: 95000,
     job_salary_currency: "USD",
     job_apply_link: "https://jobs.mayoclinic.org/job/5",
-    job_posted_at_datetime_utc: "2023-07-01T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-07-01T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's or Associate's degree in Nursing",
@@ -189,7 +189,7 @@ export const realisticJobs = [
     job_max_salary: 160000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.adobe.com/careers/6",
-    job_posted_at_datetime_utc: "2023-07-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-07-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Portfolio demonstrating UX design skills",
@@ -218,7 +218,7 @@ export const realisticJobs = [
     job_max_salary: 140000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.tesla.com/careers/7",
-    job_posted_at_datetime_utc: "2023-07-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-07-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in Mechanical Engineering",
@@ -247,7 +247,7 @@ export const realisticJobs = [
     job_max_salary: 150000,
     job_salary_currency: "USD",
     job_apply_link: "https://jobs.netflix.com/jobs/8",
-    job_posted_at_datetime_utc: "2023-07-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-07-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in Communications or related field",
@@ -276,7 +276,7 @@ export const realisticJobs = [
     job_max_salary: 155000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.ibm.com/careers/us-en/jobs/9",
-    job_posted_at_datetime_utc: "2023-08-01T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-08-01T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in Cybersecurity or related field",
@@ -305,7 +305,7 @@ export const realisticJobs = [
     job_max_salary: 135000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.microsoft.com/professionals/us/en/job/10",
-    job_posted_at_datetime_utc: "2023-08-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-08-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Bachelor's degree in HR or related field",
@@ -334,7 +334,7 @@ export const realisticJobs = [
     job_max_salary: 160000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.lifeatspotify.com/jobs/11",
-    job_posted_at_datetime_utc: "2023-08-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-08-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "3+ years experience with React",
@@ -363,7 +363,7 @@ export const realisticJobs = [
     job_max_salary: 190000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.uber.com/careers/12",
-    job_posted_at_datetime_utc: "2023-08-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-08-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Experience with AWS/GCP",
@@ -392,7 +392,7 @@ export const realisticJobs = [
     job_max_salary: 180000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.airbnb.com/13",
-    job_posted_at_datetime_utc: "2023-08-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-08-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "3+ years product management experience",
@@ -421,7 +421,7 @@ export const realisticJobs = [
     job_max_salary: 300000,
     job_salary_currency: "USD",
     job_apply_link: "https://openai.com/careers/14",
-    job_posted_at_datetime_utc: "2023-08-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-08-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "PhD in Computer Science or related field",
@@ -450,7 +450,7 @@ export const realisticJobs = [
     job_max_salary: 160000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.salesforce.com/company/careers/15",
-    job_posted_at_datetime_utc: "2023-09-01T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-09-01T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Proven sales experience",
@@ -479,7 +479,7 @@ export const realisticJobs = [
     job_max_salary: 210000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.oracle.com/careers/16",
-    job_posted_at_datetime_utc: "2023-09-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-09-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "10+ years IT experience",
@@ -508,7 +508,7 @@ export const realisticJobs = [
     job_max_salary: 130000,
     job_salary_currency: "USD",
     job_apply_link: "https://github.com/about/careers/17",
-    job_posted_at_datetime_utc: "2023-09-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-09-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Technical background",
@@ -537,7 +537,7 @@ export const realisticJobs = [
     job_max_salary: 120000,
     job_salary_currency: "CAD",
     job_apply_link: "https://www.ea.com/careers/18",
-    job_posted_at_datetime_utc: "2023-09-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-09-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Experience with Unity/Unreal",
@@ -566,7 +566,7 @@ export const realisticJobs = [
     job_max_salary: 220000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.coinbase.com/careers/19",
-    job_posted_at_datetime_utc: "2023-09-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-09-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Solidity/Rust experience",
@@ -595,7 +595,7 @@ export const realisticJobs = [
     job_max_salary: 180000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.twitter.com/20",
-    job_posted_at_datetime_utc: "2023-09-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-09-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Swift/SwiftUI expertise",
@@ -624,7 +624,7 @@ export const realisticJobs = [
     job_max_salary: 190000,
     job_salary_currency: "USD",
     job_apply_link: "https://jobs.paloaltonetworks.com/21",
-    job_posted_at_datetime_utc: "2023-10-01T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-10-01T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Cloud security certifications",
@@ -653,7 +653,7 @@ export const realisticJobs = [
     job_max_salary: 140000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.linkedin.com/22",
-    job_posted_at_datetime_utc: "2023-10-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-10-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Technical recruiting experience",
@@ -682,7 +682,7 @@ export const realisticJobs = [
     job_max_salary: 200000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.metacareers.com/jobs/23",
-    job_posted_at_datetime_utc: "2023-10-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-10-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Unity/Unreal experience",
@@ -711,7 +711,7 @@ export const realisticJobs = [
     job_max_salary: 210000,
     job_salary_currency: "USD",
     job_apply_link: "https://stripe.com/jobs/24",
-    job_posted_at_datetime_utc: "2023-10-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-10-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Experience with Spark/Flink",
@@ -740,7 +740,7 @@ export const realisticJobs = [
     job_max_salary: 120000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.zoom.us/25",
-    job_posted_at_datetime_utc: "2023-10-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-10-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Customer success experience",
@@ -769,7 +769,7 @@ export const realisticJobs = [
     job_max_salary: 180000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.pinterestcareers.com/jobs/26",
-    job_posted_at_datetime_utc: "2023-10-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-10-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Java/Go/Python experience",
@@ -798,7 +798,7 @@ export const realisticJobs = [
     job_max_salary: 140000,
     job_salary_currency: "AUD",
     job_apply_link: "https://www.atlassian.com/company/careers/27",
-    job_posted_at_datetime_utc: "2023-11-01T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-01T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Selenium/Cypress experience",
@@ -827,7 +827,7 @@ export const realisticJobs = [
     job_max_salary: 100000,
     job_salary_currency: "CAD",
     job_apply_link: "https://www.shopify.com/careers/28",
-    job_posted_at_datetime_utc: "2023-11-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Technical troubleshooting skills",
@@ -856,7 +856,7 @@ export const realisticJobs = [
     job_max_salary: 230000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.tiktok.com/29",
-    job_posted_at_datetime_utc: "2023-11-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "PyTorch/TensorFlow experience",
@@ -885,7 +885,7 @@ export const realisticJobs = [
     job_max_salary: 180000,
     job_salary_currency: "USD",
     job_apply_link: "https://slack.com/careers/30",
-    job_posted_at_datetime_utc: "2023-11-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "JavaScript/TypeScript expertise",
@@ -914,7 +914,7 @@ export const realisticJobs = [
     job_max_salary: 110000,
     job_salary_currency: "USD",
     job_apply_link: "https://jobs.marriott.com/31",
-    job_posted_at_datetime_utc: "2023-11-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Culinary degree or equivalent experience",
@@ -943,7 +943,7 @@ export const realisticJobs = [
     job_max_salary: 95000,
     job_salary_currency: "USD",
     job_apply_link: "https://careers.nordstrom.com/32",
-    job_posted_at_datetime_utc: "2023-11-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Degree in Fashion Merchandising",
@@ -972,7 +972,7 @@ export const realisticJobs = [
     job_max_salary: 85000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.usajobs.gov/33",
-    job_posted_at_datetime_utc: "2023-11-30T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-11-30T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Master's in Wildlife Biology",
@@ -1001,7 +1001,7 @@ export const realisticJobs = [
     job_max_salary: 75000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.prestigeevents.com/careers/34",
-    job_posted_at_datetime_utc: "2023-12-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-12-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "3+ years event planning",
@@ -1030,7 +1030,7 @@ export const realisticJobs = [
     job_max_salary: 100000,
     job_salary_currency: "USD",
     job_apply_link: "https://jobs.mayoclinic.org/35",
-    job_posted_at_datetime_utc: "2023-12-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-12-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "DPT degree",
@@ -1059,7 +1059,7 @@ export const realisticJobs = [
     job_max_salary: 250000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.delta.com/us/en/careers/36",
-    job_posted_at_datetime_utc: "2023-12-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-12-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "ATP certificate",
@@ -1088,7 +1088,7 @@ export const realisticJobs = [
     job_max_salary: 120000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.gensler.com/careers/37",
-    job_posted_at_datetime_utc: "2023-12-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-12-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Professional architecture degree",
@@ -1117,7 +1117,7 @@ export const realisticJobs = [
     job_max_salary: 80000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.cps.edu/careers/38",
-    job_posted_at_datetime_utc: "2023-12-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-12-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Teaching certification",
@@ -1146,7 +1146,7 @@ export const realisticJobs = [
     job_max_salary: 140000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.turnerconstruction.com/careers/39",
-    job_posted_at_datetime_utc: "2023-12-30T09:00:00Z",
+    job_posted_at_datetime_utc: "2024-12-30T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "5+ years construction experience",
@@ -1175,7 +1175,7 @@ export const realisticJobs = [
     job_max_salary: 130000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.banfield.com/careers/40",
-    job_posted_at_datetime_utc: "2024-01-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-01-05T09:00:00Z",
     job_highlights: {
       Qualifications: ["DVM degree", "State licensure", "Surgical experience"],
       Responsibilities: [
@@ -1200,7 +1200,7 @@ export const realisticJobs = [
     job_max_salary: 90000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.washingtonpost.com/careers/41",
-    job_posted_at_datetime_utc: "2024-01-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-01-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Degree in Journalism",
@@ -1229,7 +1229,7 @@ export const realisticJobs = [
     job_max_salary: 95000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.hok.com/careers/42",
-    job_posted_at_datetime_utc: "2024-01-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-01-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Degree in Interior Design",
@@ -1258,7 +1258,7 @@ export const realisticJobs = [
     job_max_salary: 110000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.fbijobs.gov/43",
-    job_posted_at_datetime_utc: "2024-01-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-01-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Degree in Forensic Science",
@@ -1287,7 +1287,7 @@ export const realisticJobs = [
     job_max_salary: 120000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.sonymusic.com/careers/44",
-    job_posted_at_datetime_utc: "2024-01-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-01-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "5+ years production experience",
@@ -1316,7 +1316,7 @@ export const realisticJobs = [
     job_max_salary: 115000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.monsanto.com/careers/45",
-    job_posted_at_datetime_utc: "2024-01-30T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-01-30T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "PhD in Agronomy",
@@ -1345,7 +1345,7 @@ export const realisticJobs = [
     job_max_salary: 100000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.joinlafd.org/46",
-    job_posted_at_datetime_utc: "2024-02-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-02-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Fire Academy certification",
@@ -1374,7 +1374,7 @@ export const realisticJobs = [
     job_max_salary: 95000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.si.edu/careers/47",
-    job_posted_at_datetime_utc: "2024-02-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-02-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "MA in Art History",
@@ -1403,7 +1403,7 @@ export const realisticJobs = [
     job_max_salary: 105000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.kaiserpermanentejobs.org/48",
-    job_posted_at_datetime_utc: "2024-02-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-02-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Master's in SLP",
@@ -1432,7 +1432,7 @@ export const realisticJobs = [
     job_max_salary: 100000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.aecom.com/careers/49",
-    job_posted_at_datetime_utc: "2024-02-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-02-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Master's in Urban Planning",
@@ -1461,7 +1461,7 @@ export const realisticJobs = [
     job_max_salary: 40000000,
     job_salary_currency: "USD",
     job_apply_link: "https://www.nba.com/lakers/careers/50",
-    job_posted_at_datetime_utc: "2024-02-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-02-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Elite basketball skills",
@@ -1791,7 +1791,7 @@ export const realisticJobs = [
     job_salary_currency: "USD",
     job_salary_period: "hour",
     job_apply_link: "https://careers.starbucks.com/51",
-    job_posted_at_datetime_utc: "2024-03-01T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-03-01T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "No experience required",
@@ -1821,7 +1821,7 @@ export const realisticJobs = [
     job_salary_currency: "USD",
     job_salary_period: "hour",
     job_apply_link: "https://www.nypl.org/careers/52",
-    job_posted_at_datetime_utc: "2024-03-05T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-03-05T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "High school diploma",
@@ -1851,7 +1851,7 @@ export const realisticJobs = [
     job_salary_currency: "USD",
     job_salary_period: "hour",
     job_apply_link: "https://www.24hourfitness.com/careers/53",
-    job_posted_at_datetime_utc: "2024-03-10T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-03-10T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Certification in specialty area",
@@ -1881,7 +1881,7 @@ export const realisticJobs = [
     job_salary_currency: "USD",
     job_salary_period: "hour",
     job_apply_link: "https://www.kumon.com/careers/54",
-    job_posted_at_datetime_utc: "2024-03-15T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-03-15T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Strong math/reading skills",
@@ -1911,7 +1911,7 @@ export const realisticJobs = [
     job_salary_currency: "USD",
     job_salary_period: "hour",
     job_apply_link: "https://www.apple.com/careers/us/retail/55",
-    job_posted_at_datetime_utc: "2024-03-20T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-03-20T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Tech enthusiasm",
@@ -1941,7 +1941,7 @@ export const realisticJobs = [
     job_salary_currency: "USD",
     job_salary_period: "hour",
     job_apply_link: "https://www.jobs-ups.com/56",
-    job_posted_at_datetime_utc: "2024-03-25T09:00:00Z",
+    job_posted_at_datetime_utc: "2025-03-25T09:00:00Z",
     job_highlights: {
       Qualifications: [
         "Clean driving record",
