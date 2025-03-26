@@ -38,13 +38,15 @@ const jobTypes = [
 
 const countries = [
   { value: "", label: "Any country" },
+  { value: "AU", label: "Australia" },
+  { value: "FR", label: "France" },
+  { value: "CA", label: "Canada" },
+  { value: "DE", label: "Germany" },
+  { value: "GH", label: "Ghana" },
+  { value: "IN", label: "India" },
+  { value: "NG", label: "Nigeria" },
   { value: "US", label: "United States" },
   { value: "GB", label: "United Kingdom" },
-  { value: "CA", label: "Canada" },
-  { value: "AU", label: "Australia" },
-  { value: "IN", label: "India" },
-  { value: "DE", label: "Germany" },
-  { value: "FR", label: "France" },
 ];
 
 export default function JobFilters({
