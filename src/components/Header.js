@@ -26,21 +26,21 @@ export function Header() {
               <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gray-900 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
-              href="/jobs"
+              href="/Jobs"
               className="text-gray-600 hover:text-blue-600 font-medium"
             >
               Find Job
               <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gray-900 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
-              href="/employers"
+              href="/"
               className="text-gray-600 hover:text-blue-600 font-medium"
             >
               Employers
               <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gray-900 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
-              href="/support"
+              href="/"
               className="text-gray-600 hover:text-blue-600 font-medium"
             >
               Customer Support
