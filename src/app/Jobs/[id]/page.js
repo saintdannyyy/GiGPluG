@@ -1,48 +1,63 @@
-// src/app/Jobs/[id]/page.js
-import { getJobDetails } from "@/lib/JSearch";
+"use client";
+import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import { getJobDetails } from "@/lib/apijobs";
 
-export default async function JobDetails({ params }) {
-  const { id } = params;
+const JobDetails = () => {
+  const { id } = useParams();
+  L;
+  const [job, setJob] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  try {
-    const jobData = await getJobDetails(id);
-    const job = jobData.data?.[0];
+  useEffect(() => {
+    const fetchJobDetails = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await getJobDetails(id);
+        setJob(response.data);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-    if (!job) {
-      return (
-        <div className="container mx-auto px-4 py-8 max-w-4xl text-center">
-          <h2 className="text-xl font-bold">Job not found</h2>
-          <p className="mt-2">The job you're looking for doesn't exist.</p>
-        </div>
-      );
-    }
+    if (id) fetchJobDetails();
+  }, [id]);
 
-    return (
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
-        {/* Rest of your job details UI */}
-        <div className="bg-white rounded-lg shadow-md p-6">
-          <div className="flex justify-between items-start mb-6">
-            <div>
-              <h1 className="text-2xl font-bold">{job.job_title}</h1>
-              <p className="text-lg text-gray-600">{job.employer_name}</p>
-            </div>
-            {job.employer_logo && (
-              <img
-                src={job.employer_logo}
-                alt={`${job.employer_name} logo`}
-                className="w-16 h-16 object-contain"
-                onError={(e) => (e.target.style.display = "none")}
-              />
-            )}
-          </div>
+  if (loading) return <p>Loading job details...</p>;
+  if (error) return <p>Error: {error}</p>;
+  if (!job) return <p>Job not found.</p>;
 
-          {/* Rest of your existing UI components */}
-          {/* ... */}
-        </div>
-      </div>
-    );
-  } catch (error) {
-    console.error("Failed to load job:", error);
-    throw error; // This will trigger your error boundary
-  }
-}
+  return (
+    <div className="job-details p-6 max-w-4xl mx-auto bg-white shadow-lg rounded-lg">
+      <h1 className="text-2xl font-bold mb-4">{job.job_title}</h1>
+      <p className="text-gray-700 mb-2">
+        <strong>Company:</strong> {job.employer_name}
+      </p>
+      <p className="text-gray-700 mb-2">
+        <strong>Location:</strong> {job.job_city}, {job.job_region},{" "}
+        {job.job_country}
+      </p>
+      <p className="text-gray-700 mb-2">
+        <strong>Published At:</strong>{" "}
+        {new Date(job.job_posted_at_datetime_utc).toLocaleDateString()}
+      </p>
+      <p className="text-gray-700 mb-4">{job.job_description}</p>
+      {job.employer_url && (
+        <a
+          href={job.employer_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Company Website
+        </a>
+      )}
+    </div>
+  );
+};
+
+export default JobDetails;
