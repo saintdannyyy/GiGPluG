@@ -5,47 +5,28 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
   Briefcase,
+  BriefcaseMedical,
   Building,
+  ChartNoAxesColumn,
+  ChevronRight,
+  Database,
   MapPin,
+  Megaphone,
+  MonitorPlay,
+  PenTool,
   PlusCircle,
   Search,
   Users,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import CountUp from "react-countup";
+import Stats from "@/components/Stats";
+import { Footer } from "@/components/Footer";
+import Link from "next/link";
+import PopularCategory from "@/components/PopularCategory";
+import PopularVacancy from "@/components/PopularVacancy";
 
 export default function Home() {
-  const stats = [
-    {
-      value: 175324,
-      label: "Live Jobs",
-      icon: <Briefcase className="w-6 h-6 text-blue-600" />,
-      color:
-        "bg-blue-50 dark:bg-blue-900/30 border-blue-200 dark:border-blue-800",
-    },
-    {
-      value: 97354,
-      label: "Companies",
-      icon: <Building className="w-6 h-6 text-green-600" />,
-      color:
-        "bg-green-50 dark:bg-green-900/30 border-green-200 dark:border-green-800",
-    },
-    {
-      value: 3847154,
-      label: "Candidates",
-      icon: <Users className="w-6 h-6 text-purple-600" />,
-      color:
-        "bg-purple-50 dark:bg-purple-900/30 border-purple-200 dark:border-purple-800",
-    },
-    {
-      value: 7532,
-      label: "New Jobs",
-      icon: <PlusCircle className="w-6 h-6 text-orange-600" />,
-      color:
-        "bg-orange-50 dark:bg-orange-900/30 border-orange-200 dark:border-orange-800",
-    },
-  ];
-
   return (
     <div className="flex z-10 flex-col w-screen h-screen bg-background">
       {/* Header Section*/}
@@ -54,25 +35,25 @@ export default function Home() {
         {/* <Header onSearch={handleSearch} className="z-10" /> */}
       </div>
       {/* Main Body */}
-      <div className="w-full flex flex-col items-center justify-center px-[10%]">
+      <div className="w-full flex flex-col bg-primary-foreground items-center justify-center">
         {/* Info */}
-        <div className="w-full flex flex-row items-center justify-center border-r-primary-foreground pt-10">
-          <div className="flex flex-col w-[50%] items-start justify-center">
-            <h1 className="text-5xl font-semibold text-left">
+        <div className="w-full flex md:flex-row sm:flex-col bg-primary-foreground items-center justify-center border-r-primary-foreground px-[10%] pt-10">
+          <div className="flex flex-col md:w-[50%] sm:w-[100%] items-start justify-center">
+            <h1 className="text-5xl font-bold text-left">
               Let Us Plug You To <br />
               <span className="text-blue-600 mt-20">Your Next Gig</span>
             </h1>
             <p className="text-lg mt-3">
               Whether it’s your next 9-5 or a Freelance gig
             </p>
-            <p className="text-lg mt-3"></p>
-            <p className="text-lg mt-3">We’re the plug</p>
-            <p className="text-lg mt-3">Sign up now</p>
-            <div className="border border-gray-300 w-[70%] rounded-sm hidden md:flex items-center space-x-1 p-3">
+            <p className="text-lg"></p>
+            <p className="text-lg">We’re the plug</p>
+            <p className="text-lg">Sign up now</p>
+            <div className="border border-gray-300 bg-white w-full rounded-sm hidden md:flex items-center space-x-1 p-3">
               {/* Job Search Bar - Only visible on homepage */}
-              <div className="bg-white py-2 px-4 w-full">
-                <div className="flex flex-row items-center justify-between container mx-auto space-x-4">
-                  <div className="relative flex-1">
+              <div className="bg-white w-full">
+                <div className="flex flex-row items-center justify-between w-full container mx-auto space-x-4">
+                  <div className="w-full relative flex-1 border-r-2 border-gray-300">
                     <Search
                       color="#0A65CC"
                       className="absolute left-2 top-1/2 transform -translate-y-1/2"
@@ -80,7 +61,7 @@ export default function Home() {
                     <input
                       type="text"
                       placeholder="Job title, keyword, company"
-                      className="w-full py-2 pl-10 pr-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full py-2 pl-10 pr-4 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                   <div className="relative flex-1">
@@ -91,107 +72,131 @@ export default function Home() {
                     <input
                       type="text"
                       placeholder="Location"
-                      className="w-full py-2 pl-10 pr-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full py-2 pl-10 pr-4 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
-                  <Button variant={"primary"}>Find Job</Button>
+                  <Button
+                    variant={"primary"}
+                    className="bg-primary rounded-sm px-10 py-8 text-white"
+                  >
+                    <Link href="/Jobs">Find Job</Link>
+                  </Button>
                 </div>
               </div>
             </div>
             <p>
-              <span className="text-gray-500">Suggestion:</span>
-              Designer, Programming, Digital Marketing, Video Animation
+              <span className="text-gray-500">Suggestion : </span>
+              <span className="hover:text-primary cursor-pointer">
+                Designer
+              </span>
+              ,{" "}
+              <span className="hover:text-primary cursor-pointer">
+                Programming
+              </span>
+              ,{" "}
+              <span className="hover:text-primary cursor-pointer">
+                Digital Marketing
+              </span>
+              ,{" "}
+              <span className="hover:text-primary cursor-pointer">
+                Video Animation
+              </span>{" "}
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col md:w-[50%] sm:w-[100%] items-center justify-center">
             <Image src={people} alt="people" width={500} height={500} />
           </div>
         </div>
-        {/* fun fact */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-6xl mx-auto px-4 py-8">
-          {stats.map((stat, index) => (
-            <Card
-              key={index}
-              className={`p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 ${stat.color}`}
-            >
-              <div className="flex flex-col items-center text-center gap-3">
-                <div className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-sm">
-                  {stat.icon}
-                </div>
-                <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
-                  <CountUp
-                    end={stat.value}
-                    duration={2.5}
-                    separator=","
-                    enableScrollSpy
-                    scrollSpyOnce
-                  />
-                </h3>
-                <p className="text-sm text-muted-foreground mt-1">
-                  {stat.label}
+
+        {/* Stats */}
+        <Stats />
+
+        {/* Popular vacancies */}
+        <PopularVacancy />
+
+        {/* popular categories */}
+        <PopularCategory />
+
+        {/* Candidate-Employer */}
+        <div className="w-full bg-white mx-auto px-[10%] py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Become a Candidate */}
+            <div className="bg-white dark:from-blue-900/30 dark:to-blue-900/20 rounded-xl hover:shadow-lg p-8">
+              <div className="flex flex-col h-full">
+                <h2 className="text-2xl font-bold mb-4">Become a Candidate</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Corsi
+                  cursus a dolor convallis efficitur.
                 </p>
+                <div className="mt-auto">
+                  <Button
+                    variant="primary"
+                    className="w-full md:w-auto text-primary"
+                  >
+                    <div className="flex flex-row">
+                      <Link href="/signup">
+                        <div className="flex flex-row items-center">
+                          Register Now
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5 ml-2"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                      </Link>
+                    </div>
+                  </Button>
+                </div>
               </div>
-            </Card>
-          ))}
+            </div>
+
+            {/* Become an Employer */}
+            <div className="bg-gradient-to-r from-[#002B] to-white text-white rounded-xl shadow-lg p-8">
+              <div className="flex flex-col h-full">
+                <h2 className="text-2xl font-bold mb-4">Become an Employer</h2>
+                <p className="mb-6">
+                  Cursus en massa positiertuosum, massa quid iutustrud exerciet
+                  dolore eu fugiat nulla pariatur. Aplicat consequent erat
+                  volutpat minimis nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div className="mt-auto">
+                  <Button
+                    variant="outline"
+                    className="w-full rounded-none text-primary md:w-auto hover:bg-blue-50 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-900/30"
+                  >
+                    <Link href="/signup">
+                      <div className="flex flex-row justify-center items-center">
+                        <p> Register Now</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5 ml-2"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* footer */}
+        <Footer />
       </div>
-      {/* <div className="product-list grid grid-cols-5">
-        {products.map((product, index) => {
-          return (
-            <ProductCard
-              key={product._id}
-              product={product}
-              productImage={product.images[0] ?? "default-image-path.jpg"}
-              productName={product.name}
-              productPrice={product.retail_price}
-              availability={product.stock}
-              onClick={onProductClick}
-              onDoubleClick={onProductDoubleClick}
-              setProductQuantities={setProductQuantities}
-            />
-            // <p onClick={() => onProductClick(product)}>{product.name}</p>
-          );
-        })}
-        {products.length === 0 && (
-          <Card className="bg-red-500 w-36 h-28 flex items-center justify-center">
-            <p className="font-bold text-center text-white p-2">
-              No products found
-            </p>
-          </Card>
-        )}
-        <style jsx>{`
-          .product-list {
-            display: grid;
-            flex-direction: row;
-            flex-wrap: wrap;
-            padding: 10px;
-            gap: 5px;
-            justify-items: center;
-            align-items: center;
-            margin: 0 auto;
-          }
-        `}</style>
-      </div> */}
     </div>
   );
 }
-
-/* <div className="flex flex-grow h-full w-screen overflow-y-hidden">
-  {/* Checkout Section */
-
-/* <div className="lg:flex min-w-[510px] hidden">
-    <Checkout selectedProducts={selectedProducts} productQuantities={productQuantities} setSelectedProducts={setSelectedProducts} />
-  </div> */
-
-/* Products Grid */
-
-/* <div className="flex-grow w-full overflow-y-scroll">
-    <CategoryList categories={categories} onCategoryClick={handleCategoryClick} />
-    <ProductList
-      products={filteredProducts}
-      onProductClick={handleProductClick}
-      onProductDoubleClick={handleProductDoubleClick}
-      setProductQuantities={setProductQuantities}
-    />
-  </div>
-</div> */
