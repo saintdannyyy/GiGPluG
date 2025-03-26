@@ -40,7 +40,7 @@ export default function JobListings() {
       {/* Header */}
       <Header />
       <div className="w-full bg-primary-foreground py-2">
-        <div className="flex flex-row items-center justify-between w-full px-[10%]">
+        <div className="flex flex-row items-center justify-between w-full py-2 bg-primary-foreground px-[10%]">
           <h1 className="text-3xl font-bold mb-6">Find Jobs</h1>
           <p className="text-xl">Home / Find Job</p>
         </div>
