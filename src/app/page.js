@@ -131,9 +131,14 @@ export default function Home() {
               <div className="flex flex-col h-full">
                 <h2 className="text-2xl font-bold mb-4">Become a Candidate</h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Corsi
-                  cursus a dolor convallis efficitur.
+                  Sign up on our platform to access a whole pool of jobs at your
+                  disposal.
                 </p>
+                <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mt-4">
+                  <li>Find jobs that match your skills and interests</li>
+                  <li>Connect with top employers in your industry</li>
+                  <li>Get personalized job recommendations</li>
+                </ul>
                 <div className="mt-auto">
                   <Button
                     variant="primary"
@@ -168,9 +173,11 @@ export default function Home() {
               <div className="flex flex-col h-full">
                 <h2 className="text-2xl font-bold mb-4">Become an Employer</h2>
                 <p className="mb-6">
-                  Cursus en massa positiertuosum, massa quid iutustrud exerciet
-                  dolore eu fugiat nulla pariatur. Aplicat consequent erat
-                  volutpat minimis nisi ut aliquip ex ea commodo consequat.
+                  <ul className="list-disc list-inside text-white mt-4">
+                    <li>Post job openings and find top talent</li>
+                    <li>Access a diverse pool of skilled candidates</li>
+                    <li>Streamline your hiring process with ease</li>
+                  </ul>
                 </p>
                 <div className="mt-auto">
                   <Button
