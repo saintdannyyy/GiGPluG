@@ -1,4 +1,3 @@
-// lib/JSearch.js
 const API_BASE_URL = "/api";
 
 export async function searchJobs(params = {}) {
@@ -24,7 +23,6 @@ export async function getJobDetails(job_id) {
   return response.json();
 }
 
-// Export the realistic jobs data
 export const realisticJobs = [
   {
     job_id: "1",

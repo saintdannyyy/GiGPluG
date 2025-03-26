@@ -1,4 +1,3 @@
-// pages/jobs/page.js
 "use client";
 import { useState, useEffect } from "react";
 import { searchJobs } from "@/lib/JSearch";

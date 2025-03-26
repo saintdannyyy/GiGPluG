@@ -1,4 +1,3 @@
-// src/app/Jobs/[id]/page.js
 "use client";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";

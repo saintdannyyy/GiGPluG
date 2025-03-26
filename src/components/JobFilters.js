@@ -1,4 +1,3 @@
-// components/JobFilters.jsx
 "use client";
 import { useState } from "react";
 
