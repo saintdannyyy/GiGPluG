@@ -37,8 +37,8 @@ export default function Home() {
       {/* Main Body */}
       <div className="w-full flex flex-col bg-primary-foreground items-center justify-center">
         {/* Info */}
-        <div className="w-full flex md:flex-row sm:flex-col bg-primary-foreground items-center justify-center border-r-primary-foreground px-[10%] pt-10">
-          <div className="flex flex-col md:w-[50%] sm:w-[100%] items-start justify-center">
+        <div className="w-full flex flex-col md:flex-row bg-primary-foreground items-center justify-center border-r-primary-foreground px-[10%] pt-10">
+          <div className="flex flex-col lg:w-[50%] sm:w-[100%] items-start justify-center">
             <h1 className="text-5xl font-bold text-left">
               Let Us Plug You To <br />
               <span className="text-blue-600 mt-20">Your Next Gig</span>
@@ -103,9 +103,15 @@ export default function Home() {
               </span>{" "}
             </p>
           </div>
-          <div className="flex flex-col md:w-[50%] sm:w-[100%] items-center justify-center">
+          <div className="flex flex-col w-[100%] md:w-[50%] items-center justify-center">
             <Image src={people} alt="people" width={500} height={500} />
           </div>
+          <Button
+            variant={"primary"}
+            className="bg-primary sm:flex md:hidden rounded-sm px-10 py-8 text-white"
+          >
+            <Link href="/Jobs">Find Your Next Job</Link>
+          </Button>
         </div>
 
         {/* Stats */}
