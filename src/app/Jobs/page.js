@@ -1,7 +1,7 @@
 // pages/jobs/page.js
 "use client";
 import { useState, useEffect } from "react";
-import { searchJobs } from "@/lib/apijobs";
+import { searchJobs } from "@/lib/JSearch";
 import JobCard from "@/components/JobCard";
 import JobFilters from "@/components/JobFilters";
 import { Header } from "@/components/Header";

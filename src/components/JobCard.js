@@ -29,7 +29,7 @@ export default function JobCard({ job }) {
 
   return (
     <Link
-      href={`/jobs/${job.id}`}
+      href={`/Jobs/${job.job_id}`}
       className="block bg-white border rounded-lg p-6 hover:shadow-md transition-shadow h-full"
     >
       <div className="flex flex-col h-full">
@@ -69,7 +69,6 @@ export default function JobCard({ job }) {
             <div className="flex flex-col">
               <span className="font-semibold text-black">
                 {job.employer_name}
-                {job.id}
               </span>
               <div className="flex items-center gap-1">
                 <MapPin stroke="#767F8C" size={16} />
