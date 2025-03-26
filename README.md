@@ -10,6 +10,22 @@ GigPlug is a job search platform designed to connect users with their next gig, 
 - User-friendly interface for candidates and employers.
 - Built-in animations and optimized performance using Next.js.
 
+## Screenshots
+
+Here are some screenshots from the app:
+
+### Home Page
+
+![Home Page]![alt text](image.png)
+
+### Job List
+
+![Job List]![alt text](image-1.png)
+
+### Job Details
+
+![Job Details]![alt text](image-2.png)
+
 ## Getting Started
 
 Follow these steps to set up the project locally:
